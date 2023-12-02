@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.card {
+    background: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text h3 {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.text p {
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 400;
+    line-height: 1.5rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.ethereum-svg {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    letter-spacing: 0.5px;
+}
+
+.ethereum-svg img {
+    width: 10px;
+    margin-right: 5px;
+}
+
+.days-svg {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.days-svg img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.img-icon {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.img-icon img {
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+span {
+    margin-left: 3px;
+    color: hsl(0, 0%, 100%);
+}
